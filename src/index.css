@@ -1,0 +1,18 @@
+body {
+    background-color: #FFEBCF;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+    background-color: #305F72;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #F18C8E;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #F18C8E;
+    border: none;
+}

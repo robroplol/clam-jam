@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './card.css';
 
 class Card extends Component {
   state = {
@@ -16,12 +17,12 @@ class Card extends Component {
 
   render() {
     return (
-      <div>
+      <div className="scorecard">
         <h2>{this.props.name}</h2>
         <h3>Cherish Points: {this.state.cherishPoints}</h3>
-        <h3>Clams: {this.state.clam}</h3>
-        <button onClick={this.cherishPoint}>Cherish Point</button>
-        <button onClick={this.clam}>Clam</button>
+        <h3 >Clams: {this.state.clam}</h3>
+        <button className="btn btn-primary btn-block" onClick={this.cherishPoint}>Cherish Point</button>
+        <button className="btn btn-danger btn-block" onClick={this.clam}>Clam</button>
       </div>
     );
   }

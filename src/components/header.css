@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #F0B7A4;
+    font-family: 'Cabin', 'Open Sans';
+    font-size: 4rem;
+    text-shadow: -2px 2px #305F72;
+}
